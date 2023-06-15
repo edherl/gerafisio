@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lora&display=swap');
 
 * {
   margin: 0;
@@ -8,37 +9,40 @@
 
 body {
   box-sizing: border-box;
-  background: linear-gradient(to bottom, #1e242c, #181c23);
-  color: #d6d6d6;
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
+  background: #151515;
+  color: #e5e5e5;
+  font-family: 'Inter', sans-serif;
   line-height: 1.8;
-  font-display: swap;
   width: 750px;
   padding: 0;
   margin: 0 auto;
   p,
   li {
-    color: #bcbfc3;
+    color: #cccccc;
   }
   .title,
   a {
-    color: #d6d6d6;
+    color: #e5e5e5;
     margin: 10px 0;
   }
   h1 {
-    margin: 20px 0;
+    font-family: 'Lora', serif;
+    font-size: 2.25em;
+    margin: 100px 0 20px 0;
   }
   a {
     text-decoration: none;
   }
   .container-assesment {
-    border-top: 1px solid #4e525a;
+    border-top: 1px solid #434343;
+  }
+  h2 {
+    font-family: 'Lora', serif;
   }
   a,
   .li-home {
     &:hover {
-      color: #d0bef9;
+      color: #8ca4c8;
       transition: all 0.5s;
     }
   }
@@ -47,7 +51,7 @@ body {
     margin: 30px 0;
   }
   span {
-    color: #d0bef9;
+    color: #8ca4c8;
   }
   input,
   button,
@@ -60,17 +64,17 @@ body {
     border: none;
   }
   input {
-    background-color: #222831;
+    background-color: #252525;
     &:focus {
       outline: 0;
     }
   }
   button,
   select {
-    background-color: #12151a;
+    background-color: #252525;
     &:hover {
       cursor: pointer;
-      background-color: #111418;
+      background-color: #202020;
       transition: all 0.5s;
     }
   }
@@ -79,13 +83,13 @@ body {
   }
 
   table {
-    font-size: 0.9rem;
+    font-size: 0.75em;
     border-collapse: collapse;
     margin: 20px 0;
     width: 100%;
-    border-bottom: 1px solid #4e525a;
+    border-bottom: 1px solid #434343;
     thead {
-      border-bottom: 1px solid #4e525a;
+      border-bottom: 1px solid #434343;
     }
     td,
     th {
@@ -95,7 +99,7 @@ body {
     }
     tr {
       &:nth-child(even) {
-        background-color: #222831;
+        background-color: #292929;
       }
     }
   }
@@ -105,13 +109,20 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 15px 0;
-  border-bottom: 1px solid #4e525a;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgb(21, 21, 21, 0.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 15px 25px;
+  border-bottom: 1px solid #434343;
   .gerafisio {
-    font-size: 22px;
-    font-weight: 600;
+    font-family: 'Lora', serif;
+    font-size: 1.25em;
     &:hover {
-      color: #d0bef9;
+      color: #8ca4c8;
       transition: all 0.5s;
     }
   }
@@ -124,12 +135,16 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 14px;
   padding: 15px 0;
-  border-top: 1px solid #4e525a;
+  border-top: 1px solid #434343;
+  p {
+    font-size: 0.85em;
+    color: #a1a1a1;
+  }
 }
 
 .home {
+  margin: 50px 0 0 0;
   .list {
     padding: 10px 0 20px 0;
     li {
@@ -138,9 +153,15 @@ footer {
   }
   .home-container {
     padding: 20px 0 40px 0;
-    .title {
-      font-size: 42px;
-      font-weight: 600;
+    .title-gerafisio {
+      font-family: 'Lora', serif;
+      font-size: 6.5em;
+    }
+    @media (max-width: 844px) {
+      .title-gerafisio {
+        font-family: 'Lora', serif;
+        font-size: 3.75em;
+      }
     }
   }
 }

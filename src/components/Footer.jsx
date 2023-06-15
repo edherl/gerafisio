@@ -2,7 +2,7 @@ function Footer() {
   return (
     <footer>
       <p>LAFISE/UEPG</p>
-      <p>GERAFISIO</p>
+      <p>2023 © Edher Antunes</p>
     </footer>
   );
 }

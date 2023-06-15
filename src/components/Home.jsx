@@ -4,12 +4,11 @@ function Home() {
   return (
     <div className="home">
       <div className="home-container">
-        <p className="title">Protocolos - GERAFISIO</p>
+        <p className="title-gerafisio">GERAFISIO</p>
         <p>
-          Site elaborado para os alunos e docentes do programa de pós-graduação
-          da UEPG e HU/UEPG acessarem de forma simples e rápida suas avaliações
-          físicas. No site, os profissionais encontrarão informações sobre as os
-          protocolos de avaliação física padrão do LAFISE/UEPG e HU/UEPG.
+          Site elaborado para o programa de pós-graduação da UEPG e HU/UEPG. No
+          site, os profissionais encontrarão informações sobre as os protocolos
+          de avaliação física padrão do LAFISE/UEPG e HU/UEPG.
         </p>
       </div>
       <div className="container-assesment">

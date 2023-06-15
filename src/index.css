@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lora&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,37 +7,40 @@
 
 body {
   box-sizing: border-box;
-  background: linear-gradient(to bottom, #1e242c, #181c23);
-  color: #d6d6d6;
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
+  background: #151515;
+  color: #e5e5e5;
+  font-family: "Inter", sans-serif;
   line-height: 1.8;
-  font-display: swap;
   width: 750px;
   padding: 0;
   margin: 0 auto;
 }
 body p,
 body li {
-  color: #bcbfc3;
+  color: #cccccc;
 }
 body .title,
 body a {
-  color: #d6d6d6;
+  color: #e5e5e5;
   margin: 10px 0;
 }
 body h1 {
-  margin: 20px 0;
+  font-family: "Lora", serif;
+  font-size: 2.25em;
+  margin: 100px 0 20px 0;
 }
 body a {
   text-decoration: none;
 }
 body .container-assesment {
-  border-top: 1px solid #4e525a;
+  border-top: 1px solid #434343;
+}
+body h2 {
+  font-family: "Lora", serif;
 }
 body a:hover,
 body .li-home:hover {
-  color: #d0bef9;
+  color: #8ca4c8;
   transition: all 0.5s;
 }
 body h2 {
@@ -45,7 +48,7 @@ body h2 {
   margin: 30px 0;
 }
 body span {
-  color: #d0bef9;
+  color: #8ca4c8;
 }
 body input,
 body button,
@@ -58,19 +61,19 @@ body select {
   border: none;
 }
 body input {
-  background-color: #222831;
+  background-color: #252525;
 }
 body input:focus {
   outline: 0;
 }
 body button,
 body select {
-  background-color: #12151a;
+  background-color: #252525;
 }
 body button:hover,
 body select:hover {
   cursor: pointer;
-  background-color: #111418;
+  background-color: #202020;
   transition: all 0.5s;
 }
 @media (max-width: 844px) {
@@ -79,14 +82,14 @@ body select:hover {
   }
 }
 body table {
-  font-size: 0.9rem;
+  font-size: 0.75em;
   border-collapse: collapse;
   margin: 20px 0;
   width: 100%;
-  border-bottom: 1px solid #4e525a;
+  border-bottom: 1px solid #434343;
 }
 body table thead {
-  border-bottom: 1px solid #4e525a;
+  border-bottom: 1px solid #434343;
 }
 body table td,
 body table th {
@@ -95,22 +98,29 @@ body table th {
   word-wrap: break-word;
 }
 body table tr:nth-child(even) {
-  background-color: #222831;
+  background-color: #292929;
 }
 
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 15px 0;
-  border-bottom: 1px solid #4e525a;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(21, 21, 21, 0.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 15px 25px;
+  border-bottom: 1px solid #434343;
 }
 header .gerafisio {
-  font-size: 22px;
-  font-weight: 600;
+  font-family: "Lora", serif;
+  font-size: 1.25em;
 }
 header .gerafisio:hover {
-  color: #d0bef9;
+  color: #8ca4c8;
   transition: all 0.5s;
 }
 header .links {
@@ -121,11 +131,17 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 14px;
   padding: 15px 0;
-  border-top: 1px solid #4e525a;
+  border-top: 1px solid #434343;
+}
+footer p {
+  font-size: 0.85em;
+  color: #a1a1a1;
 }
 
+.home {
+  margin: 50px 0 0 0;
+}
 .home .list {
   padding: 10px 0 20px 0;
 }
@@ -135,7 +151,13 @@ footer {
 .home .home-container {
   padding: 20px 0 40px 0;
 }
-.home .home-container .title {
-  font-size: 42px;
-  font-weight: 600;
+.home .home-container .title-gerafisio {
+  font-family: "Lora", serif;
+  font-size: 6.5em;
+}
+@media (max-width: 844px) {
+  .home .home-container .title-gerafisio {
+    font-family: "Lora", serif;
+    font-size: 3.75em;
+  }
 }/*# sourceMappingURL=index.css.map */
