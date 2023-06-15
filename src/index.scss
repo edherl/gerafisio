@@ -64,7 +64,7 @@ body {
     border: none;
   }
   input {
-    background-color: #252525;
+    background-color: #303030;
     &:focus {
       outline: 0;
     }
@@ -74,7 +74,7 @@ body {
     background-color: #252525;
     &:hover {
       cursor: pointer;
-      background-color: #202020;
+      background-color: #222222;
       transition: all 0.5s;
     }
   }
@@ -99,7 +99,7 @@ body {
     }
     tr {
       &:nth-child(even) {
-        background-color: #292929;
+        background-color: #202020;
       }
     }
   }

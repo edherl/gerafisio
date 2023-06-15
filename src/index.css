@@ -61,7 +61,7 @@ body select {
   border: none;
 }
 body input {
-  background-color: #252525;
+  background-color: #303030;
 }
 body input:focus {
   outline: 0;
@@ -73,7 +73,7 @@ body select {
 body button:hover,
 body select:hover {
   cursor: pointer;
-  background-color: #202020;
+  background-color: #222222;
   transition: all 0.5s;
 }
 @media (max-width: 844px) {
@@ -98,7 +98,7 @@ body table th {
   word-wrap: break-word;
 }
 body table tr:nth-child(even) {
-  background-color: #292929;
+  background-color: #202020;
 }
 
 header {
