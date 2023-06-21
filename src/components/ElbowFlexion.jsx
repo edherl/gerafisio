@@ -4,7 +4,6 @@ function ElbowFlexion() {
       <h1>Flexão de Cotovelos</h1>
 
       <h2>Objetivo</h2>
-
       <p>Avaliar a força e resistência dos membros superiores.</p>
 
       <h2>Equipamento</h2>

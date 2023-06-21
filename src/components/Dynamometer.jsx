@@ -107,9 +107,15 @@ function Dynamometer() {
           </select>
           <button onClick={handleCalculate}>Calcular</button>
           <p className="result">
+            <span>
+              <b>01: </b>
+            </span>
             Dominante: <b>{man}</b>
           </p>
           <p className="result">
+            <span>
+              <b>02: </b>
+            </span>
             Não Dominante: <b>{woman}</b>
           </p>
         </form>

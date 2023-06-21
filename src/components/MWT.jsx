@@ -110,6 +110,9 @@ function MWT() {
         />
         <button onClick={handleCalculate}>Calcular</button>
         <p className="result">
+          <span>
+            <b>01: </b>
+          </span>
           Resultado: <b>{result}</b>
         </p>
       </div>

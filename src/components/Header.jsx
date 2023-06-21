@@ -5,7 +5,7 @@ function Header() {
       <header>
         <div>
           <Link to="/">
-            <a className="gerafisio">GERAFISIO</a>
+            <a className="gerafisio"><span>✦</span> GERAFISIO</a>
           </Link>
         </div>
         <div role="button" aria-label="Redes Sociais">

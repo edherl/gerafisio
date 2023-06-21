@@ -118,6 +118,9 @@ function BMI() {
             Calcular
           </button>
           <p className="result">
+            <span>
+              <b>01: </b>
+            </span>
             Seu IMC é: <b>{result}</b>
           </p>
         </form>

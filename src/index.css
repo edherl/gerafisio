@@ -7,8 +7,7 @@
 
 body {
   box-sizing: border-box;
-  background: #151515;
-  color: #e5e5e5;
+  color: #333333;
   font-family: "Inter", sans-serif;
   line-height: 1.8;
   width: 750px;
@@ -17,11 +16,11 @@ body {
 }
 body p,
 body li {
-  color: #cccccc;
+  color: #333333;
 }
 body .title,
 body a {
-  color: #e5e5e5;
+  color: #333333;
   margin: 10px 0;
 }
 body h1 {
@@ -33,22 +32,22 @@ body a {
   text-decoration: none;
 }
 body .container-assesment {
-  border-top: 1px solid #434343;
+  border-top: 1px solid #d8d8d8;
 }
 body h2 {
   font-family: "Lora", serif;
 }
 body a:hover,
 body .li-home:hover {
-  color: #8ca4c8;
+  color: #0074BA;
   transition: all 0.5s;
 }
 body h2 {
   font-weight: 600;
-  margin: 30px 0;
+  margin: 30px 0 20px 0;
 }
 body span {
-  color: #8ca4c8;
+  color: #0074BA;
 }
 body input,
 body button,
@@ -57,23 +56,22 @@ body select {
   padding: 10px;
   margin: 15px 0 10px 0;
   font-family: "Poppins", sans-serif;
-  color: #bcbfc3;
   border: none;
 }
 body input {
-  background-color: #303030;
+  background-color: #e5e5e5;
 }
 body input:focus {
   outline: 0;
 }
 body button,
 body select {
-  background-color: #252525;
+  background-color: #cccccc;
 }
 body button:hover,
 body select:hover {
   cursor: pointer;
-  background-color: #222222;
+  background-color: #b2b2b2;
   transition: all 0.5s;
 }
 @media (max-width: 844px) {
@@ -86,10 +84,10 @@ body table {
   border-collapse: collapse;
   margin: 20px 0;
   width: 100%;
-  border-bottom: 1px solid #434343;
+  border-bottom: 1px solid #d8d8d8;
 }
 body table thead {
-  border-bottom: 1px solid #434343;
+  border-bottom: 1px solid #d8d8d8;
 }
 body table td,
 body table th {
@@ -98,7 +96,14 @@ body table th {
   word-wrap: break-word;
 }
 body table tr:nth-child(even) {
-  background-color: #202020;
+  background-color: #e5e5e5;
+}
+body .legend {
+  font-size: 0.85em;
+}
+body .result {
+  font-size: 1.15em;
+  margin: 20px 0 0 0;
 }
 
 header {
@@ -109,18 +114,18 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background: rgba(21, 21, 21, 0.25);
+  background-color: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  padding: 15px 25px;
-  border-bottom: 1px solid #434343;
+  padding: 15px 20px;
+  border-bottom: 1px solid #d8d8d8;
 }
 header .gerafisio {
   font-family: "Lora", serif;
   font-size: 1.25em;
 }
 header .gerafisio:hover {
-  color: #8ca4c8;
+  color: #0074BA;
   transition: all 0.5s;
 }
 header .links {
@@ -132,11 +137,12 @@ footer {
   align-items: center;
   justify-content: space-between;
   padding: 15px 0;
-  border-top: 1px solid #434343;
+  margin: 5px 0 0 0;
+  border-top: 1px solid #d8d8d8;
 }
 footer p {
   font-size: 0.85em;
-  color: #a1a1a1;
+  color: #666666;
 }
 
 .home {
