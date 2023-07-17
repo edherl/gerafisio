@@ -55,10 +55,10 @@ function Home() {
       </div>
       <div className="container-assesment">
         <h2>
-          <span>03. </span>Força e Resistência
+          <span>03. </span>Capacidades Físicas
         </h2>
         <p>
-          A avaliação da força e resistência é importante para fornecer
+          A avaliação das capacidades físicas é importante para fornecer
           informações objetivas sobre o nível de condicionamento físico e
           determinar pontos fortes e áreas a serem melhoradas. Esses testes
           fornecem dados quantitativos para monitorar o progresso e ajustar o
@@ -74,8 +74,11 @@ function Home() {
           <Link to="/dinamometria-manual">
             <li className="li-home">Dinamometria Manual</li>
           </Link>
-          <Link to="/tc6">
+          <Link to="/TC6">
             <li className="li-home">TC6</li>
+          </Link>
+          <Link to="/TUG">
+            <li className="li-home">Timed Up and Go (TUG)</li>
           </Link>
         </div>
       </div>

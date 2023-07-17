@@ -11,6 +11,7 @@ import SitStand from "./components/SitStand";
 import ElbowFlexion from "./components/ElbowFlexion";
 import Dynamometer from "./components/Dynamometer";
 import MWT from "./components/MWT";
+import TUG from "./components/TUG";
 import Footer from "./components/Footer";
 
 function App() {
@@ -28,7 +29,8 @@ function App() {
           <Route path="/sentar-e-levantar" element={<SitStand />} />
           <Route path="/flexao-de-cotovelos" element={<ElbowFlexion />} />
           <Route path="/dinamometria-manual" element={<Dynamometer />} />
-          <Route path="/tc6" element={<MWT/>} />
+          <Route path="/TC6" element={<MWT/>} />
+          <Route path="/TUG" element={<TUG/>} />
         </Routes>
         <Footer />
       </BrowserRouter>
