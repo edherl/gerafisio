@@ -66,6 +66,7 @@ function TUG() {
         Pare o cronômetro assim que o participante se sentar completamente na
         cadeira.
       </li>
+      <br />
     </div>
   );
 }

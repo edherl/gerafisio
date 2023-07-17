@@ -55,10 +55,10 @@ function Home() {
       </div>
       <div className="container-assesment">
         <h2>
-          <span>03. </span>Capacidades Físicas
+          <span>03. </span>Testes Físicos
         </h2>
         <p>
-          A avaliação das capacidades físicas é importante para fornecer
+          A avaliação através dos testes físicos é importante para fornecer
           informações objetivas sobre o nível de condicionamento físico e
           determinar pontos fortes e áreas a serem melhoradas. Esses testes
           fornecem dados quantitativos para monitorar o progresso e ajustar o
