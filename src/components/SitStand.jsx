@@ -41,6 +41,163 @@ function SitStand() {
         no final dos 30 segundos, esta deve ser contabilizada. Os parâmetros
         utilizados para mensuração são o sexo e a idade do avaliado.
       </p>
+
+      <table>
+        <thead>
+          <th>Percentil</th>
+          <th>60 a 64</th>
+          <th>65 a 69</th>
+          <th>70 a 74</th>
+          <th>75 a 79</th>
+          <th>80 a 84</th>
+          <th>85 a 89</th>
+          <th>90 a 94</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <b>10</b>
+            </td>
+            <td>9</td>
+            <td>9</td>
+            <td>8</td>
+            <td>7</td>
+            <td>6</td>
+            <td>5</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>
+              <b>25</b>
+            </td>
+            <td>12</td>
+            <td>11</td>
+            <td>10</td>
+            <td>10</td>
+            <td>9</td>
+            <td>8</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>
+              <b>50</b>
+            </td>
+            <td>15</td>
+            <td>14</td>
+            <td>13</td>
+            <td>12</td>
+            <td>11</td>
+            <td>10</td>
+            <td>8</td>
+          </tr>
+          <tr>
+            <td>
+              <b>75</b>
+            </td>
+            <td>17</td>
+            <td>16</td>
+            <td>15</td>
+            <td>15</td>
+            <td>14</td>
+            <td>13</td>
+            <td>11</td>
+          </tr>
+          <tr>
+            <td>
+              <b>90</b>
+            </td>
+            <td>20</td>
+            <td>18</td>
+            <td>18</td>
+            <td>17</td>
+            <td>16</td>
+            <td>15</td>
+            <td>14</td>
+          </tr>
+        </tbody>
+      </table>
+      <p className="legend">
+        <b>Tabela 1. </b>Valores de referência para mulheres.
+      </p>
+      <br />
+
+      <table>
+        <thead>
+          <th>Percentil</th>
+          <th>60 a 64</th>
+          <th>65 a 69</th>
+          <th>70 a 74</th>
+          <th>75 a 79</th>
+          <th>80 a 84</th>
+          <th>85 a 89</th>
+          <th>90 a 94</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <b>10</b>
+            </td>
+            <td>11</td>
+            <td>9</td>
+            <td>9</td>
+            <td>8</td>
+            <td>7</td>
+            <td>6</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>
+              <b>25</b>
+            </td>
+            <td>14</td>
+            <td>12</td>
+            <td>12</td>
+            <td>11</td>
+            <td>10</td>
+            <td>8</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>
+              <b>50</b>
+            </td>
+            <td>16</td>
+            <td>15</td>
+            <td>15</td>
+            <td>14</td>
+            <td>12</td>
+            <td>11</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>
+              <b>75</b>
+            </td>
+            <td>19</td>
+            <td>18</td>
+            <td>17</td>
+            <td>17</td>
+            <td>15</td>
+            <td>14</td>
+            <td>12</td>
+          </tr>
+          <tr>
+            <td>
+              <b>90</b>
+            </td>
+            <td>22</td>
+            <td>21</td>
+            <td>20</td>
+            <td>19</td>
+            <td>18</td>
+            <td>17</td>
+            <td>15</td>
+          </tr>
+        </tbody>
+      </table>
+      <p className="legend">
+        <b>Tabela 2. </b>Valores de referência para homens.
+      </p>
       <br />
     </div>
   );

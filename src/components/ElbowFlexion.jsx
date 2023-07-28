@@ -47,6 +47,139 @@ function ElbowFlexion() {
         final dos 30 segundos, esta deve ser contabilizada como flexão total. Os
         parâmetros utilizados para mensuração são o sexo e a idade do avaliado.
       </p>
+
+      <table>
+        <thead>
+          <th>Classificação</th>
+          <th>20 a 39</th>
+          <th>40 a 49</th>
+          <th>50 a 59</th>
+          <th>60 a 69</th>
+          <th>70 +</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <b>Fraco</b>
+            </td>
+            <td>≤ 17</td>
+            <td>≤ 15</td>
+            <td>≤ 16</td>
+            <td>≤ 16</td>
+            <td>≤ 14</td>
+          </tr>
+          <tr>
+            <td>
+              <b>Regular</b>
+            </td>
+            <td>17 a 19</td>
+            <td>15 a 19</td>
+            <td>16 a 18</td>
+            <td>16 a 19</td>
+            <td>14 a 15</td>
+          </tr>
+          <tr>
+            <td>
+              <b>Médio</b>
+            </td>
+            <td>19 a 22</td>
+            <td>19 a 22</td>
+            <td>18 a 21</td>
+            <td>19 a 21</td>
+            <td>15 a 18</td>
+          </tr>
+          <tr>
+            <td>
+              <b>Bom</b>
+            </td>
+            <td>22 a 25</td>
+            <td>22 a 25</td>
+            <td>21 a 25</td>
+            <td>21 a 25</td>
+            <td>18 a 21</td>
+          </tr>
+          <tr>
+            <td>
+              <b>Ótimo</b>
+            </td>
+            <td>≥ 25</td>
+            <td>≥ 25</td>
+            <td>≥ 25</td>
+            <td>≥ 25</td>
+            <td>≥ 21</td>
+          </tr>
+        </tbody>
+      </table>
+      <p className="legend">
+        <b>Tabela 1. </b>Valores de referência para mulheres.
+      </p>
+      <br />
+
+      <table>
+        <thead>
+          <th>Classificação</th>
+          <th>20 a 39</th>
+          <th>40 a 49</th>
+          <th>50 a 59</th>
+          <th>60 a 69</th>
+          <th>70 +</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <b>Fraco</b>
+            </td>
+            <td>≤ 16</td>
+            <td>≤ 15</td>
+            <td>≤ 15</td>
+            <td>≤ 16</td>
+            <td>≤ 15</td>
+          </tr>
+          <tr>
+            <td>
+              <b>Regular</b>
+            </td>
+            <td>16 a 19</td>
+            <td>15 a 19</td>
+            <td>15 a 18</td>
+            <td>16 a 18</td>
+            <td>15 a 19</td>
+          </tr>
+          <tr>
+            <td>
+              <b>Médio</b>
+            </td>
+            <td>19 a 23</td>
+            <td>19 a 22</td>
+            <td>19 a 20</td>
+            <td>18 a 21</td>
+            <td>19 a 21</td>
+          </tr>
+          <tr>
+            <td>
+              <b>Bom</b>
+            </td>
+            <td>23 a 28</td>
+            <td>22 a 24</td>
+            <td>20 a 21</td>
+            <td>21 a 25</td>
+            <td>21 a 22</td>
+          </tr>
+          <tr>
+            <td>
+              <b>Ótimo</b>
+            </td>
+            <td>≥ 28</td>
+            <td>≥ 24</td>
+            <td>≥ 21</td>
+            <td>≥ 25</td>
+            <td>≥ 22</td>
+          </tr>
+        </tbody>
+      </table>
+      <p className="legend">
+        <b>Tabela 2. </b>Valores de referência para homens.
+      </p>
       <br />
     </div>
   );
