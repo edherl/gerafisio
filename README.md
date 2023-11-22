@@ -1,14 +1,12 @@
-# Protocolos - GERAFISIO
+# Protocols - GERAFISIO
 
-Site elaborado para os alunos e docentes do programa de pós-graduação da UEPG e HU/UEPG acessarem de forma simples e rápida suas avaliações físicas.
+Website designed for students and faculty of the postgraduate program at UEPG (State University of Ponta Grossa) and HU/UEPG (University Hospital of UEPG) to access their physical assessments easily and quickly.
 
-No site, os profissionais encontrarão informações sobre as os protocolos de avaliação física padrão do LAFISE/UEPG e HU/UEPG.
+On the site, professionals will find information about the standard physical assessment protocols of LAFISE/UEPG and HU/UEPG.
 
-## Projeto
+## Project
 
-Este projeto é uma parte do meu portfólio pessoal, e por isso, apreciaria muito se pudesse compartilhar comigo qualquer feedback em relação ao projeto, código, estrutura ou outro aspecto que possa me ajudar a me tornar um desenvolvedor melhor. 
-
-Obrigado!
+This project is a part of my personal portfolio, and therefore, I would greatly appreciate it if you could share any feedback with me regarding the project, code, structure, or any other aspect that could help me become a better developer.
 
 ##
 
